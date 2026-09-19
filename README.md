@@ -1,40 +1,36 @@
 # 🌿 BioIntel AI
 
-### AI-Powered Biodiversity & Environmental Intelligence
+## AI-Powered Biodiversity & Environmental Intelligence
 
-BioIntel AI is an AI-based environmental intelligence platform that analyzes
-multiple ecological variables, identifies biodiversity risks, retrieves
-scientific evidence, and provides actionable recommendations.
+BioIntel AI is an AI-based environmental intelligence platform that analyzes multiple ecological variables, identifies biodiversity risks, retrieves scientific evidence, and provides actionable recommendations.
+
+The system is designed to demonstrate multi-variable environmental reasoning, Retrieval-Augmented Generation (RAG), conversational memory, evidence-backed recommendations, and environmental monitoring.
 
 ---
 
 ## 🎯 Problem
 
-Environmental conditions are interconnected. Changes in temperature,
-dissolved oxygen, nutrients, vegetation, and pollution can interact and
-affect aquatic ecosystems.
+Environmental conditions are interconnected. Changes in temperature, pH, dissolved oxygen, nutrients, vegetation cover, and pollution can interact and affect biodiversity and ecosystem health.
 
-Traditional analysis may examine these variables separately, making it
-difficult to understand their combined ecological impact.
+Traditional analysis may examine these variables separately, making it difficult to understand their combined ecological impact.
 
 ---
 
 ## 💡 Solution
 
-BioIntel AI combines structured environmental data with a curated scientific
-knowledge base to provide:
+BioIntel AI combines structured environmental data with a curated scientific knowledge base to provide:
 
 - Environmental risk assessment
 - Biodiversity risk identification
 - Multi-variable interaction analysis
 - Evidence-backed recommendations
-- Monitoring plans
-- Scientific sources
+- Environmental monitoring plans
+- Scientific evidence and source links
 - Follow-up questions using previous analysis
 
 ---
 
-## 🚀 Key Features
+# 🚀 Key Features
 
 ### 1. Environmental Data Input
 
@@ -51,71 +47,73 @@ Users can provide:
 
 ### 2. Multi-Variable Reasoning
 
-BioIntel AI analyzes relationships between environmental variables.
+The system analyzes relationships between multiple environmental variables.
 
 Examples:
 
 - High temperature + low dissolved oxygen
 - High nitrogen + high phosphorus
 - High pollution + low dissolved oxygen
-- Low vegetation + high pollution
+- Low vegetation cover + high pollution
 
 ### 3. Risk Assessment
 
 The system produces:
 
 - Overall ecological risk level
-- Key biodiversity risks
 - Environmental assessment
+- Key biodiversity risks
+- Variable interactions
 
 ### 4. Recommendations
 
-Recommendations include:
+The system provides:
 
-- Recommended action
-- Reason
-- Environmental metrics
-- Expected time horizon
+- Recommended environmental actions
+- Reasons for recommendations
+- Environmental metrics to monitor
+- Expected monitoring time horizon
 
 ### 5. Scientific Evidence / RAG
 
-BioIntel AI retrieves relevant evidence from a curated environmental
-knowledge base containing authoritative sources such as:
+BioIntel AI retrieves relevant evidence from a curated scientific knowledge base.
 
-- US Environmental Protection Agency (EPA)
-- US Geological Survey (USGS)
+The knowledge base contains information from authoritative environmental sources including:
 
-Each retrieved source contains:
+- U.S. Environmental Protection Agency (EPA)
+- U.S. Geological Survey (USGS)
+
+Each knowledge document contains:
 
 - Title
 - Source
-- Supporting scientific information
-- Link to the original source
+- Scientific information
+- Original source URL
 
-### 6. Monitoring Plan
+### 6. Conversational Memory
 
-The system suggests environmental parameters that should be monitored over
-time.
+Users can ask follow-up questions about a previous environmental analysis.
 
-### 7. Follow-Up Questions
+The current MVP stores conversation messages in server memory and retains the latest messages for the active conversation.
 
-Users can ask follow-up questions about the generated analysis while
-retaining the previous environmental context.
+### 7. Monitoring Plan
+
+The system identifies environmental parameters that should be monitored over time.
 
 ---
 
-## 🏗️ System Architecture
+# 🏗️ System Architecture
 
 ```text
 User
   ↓
-React Frontend
+React + Vite Frontend
   ↓
 Node.js / Express Backend
   ↓
 Environmental Data Processing
   ↓
-Knowledge Retrieval
+Knowledge Retrieval / RAG
   ↓
 Scientific Evidence
   ↓
@@ -127,4 +125,4 @@ Recommendations
   ↓
 Monitoring Plan
   ↓
-Follow-Up Questions
+Conversational Follow-up
