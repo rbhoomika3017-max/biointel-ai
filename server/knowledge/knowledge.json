@@ -1,0 +1,51 @@
+[
+  {
+    "id": "epa-nutrients",
+    "title": "Nutrient Pollution",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/nutrientpollution",
+    "content": "Excess nitrogen and phosphorus entering water bodies can cause excessive algal growth. Nutrient pollution can harm aquatic ecosystems and contribute to harmful algal blooms."
+  },
+  {
+    "id": "epa-algal-blooms",
+    "title": "Dead Zones and Harmful Algal Blooms",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/nutrientpollution/effects-dead-zones-and-harmful-algal-blooms",
+    "content": "Excess nitrogen and phosphorus can cause rapid algal growth. When algae die and decompose, oxygen in the water can be consumed, creating low-oxygen conditions that can make it difficult for aquatic life to survive."
+  },
+  {
+    "id": "epa-dissolved-oxygen",
+    "title": "Dissolved Oxygen",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/national-aquatic-resource-surveys/indicators-dissolved-oxygen",
+    "content": "Dissolved oxygen is an important indicator of whether water can support aquatic life. Low dissolved oxygen can stress aquatic organisms, and prolonged very low oxygen can result in mortality."
+  },
+  {
+    "id": "usgs-dissolved-oxygen",
+    "title": "Dissolved Oxygen and Water",
+    "source": "US Geological Survey",
+    "url": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+    "content": "Dissolved oxygen is needed by aquatic organisms. Warm water generally holds less dissolved oxygen than cold water. Excess organic material and decomposition can also consume oxygen."
+  },
+  {
+    "id": "epa-phosphorus",
+    "title": "Phosphorus Indicator",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/national-aquatic-resource-surveys/indicators-phosphorus",
+    "content": "Excess phosphorus can contribute to freshwater algal blooms. Excess algal growth can reduce dissolved oxygen, block sunlight and degrade aquatic habitat."
+  },
+  {
+    "id": "epa-nitrogen",
+    "title": "Nitrogen Indicator",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/national-aquatic-resource-surveys/indicators-nitrogen",
+    "content": "Increased nitrogen inputs can stimulate excessive algal growth. Excess algae can contribute to low dissolved oxygen, harmful algal toxins and degraded aquatic habitat."
+  },
+  {
+    "id": "epa-do-factors",
+    "title": "Dissolved Oxygen Stressors",
+    "source": "US EPA",
+    "url": "https://www.epa.gov/caddis/dissolved-oxygen",
+    "content": "High water temperature can reduce oxygen solubility. High nutrient levels can increase plant and algal growth, and respiration and decomposition can contribute to dissolved oxygen declines."
+  }
+]
