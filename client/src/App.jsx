@@ -62,7 +62,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://biointel-ai.onrender.com/api/chat/analyze",
+        "https://biointel-ai.onrender.com/api/chat/analyze",
         {
           method: "POST",
           headers: {
@@ -110,7 +110,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://biointel-ai.onrender.com/api/chat/follow-up",
+        "https://biointel-ai.onrender.com/api/chat/follow-up",
         {
           method: "POST",
           headers: {
